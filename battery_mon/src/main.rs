@@ -1,3 +1,6 @@
+extern crate hidapi;
+
 fn main() {
-    println!("Hello, world!");
+    let api = hidapi::HidApi::new();
 }
+
